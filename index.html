@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprende sabado </title>
+<style>
+    body{
+        background-color:seashell;
+    }
+h1{
+    background-color: darkseagreen;
+    text-align: center;
+    color: azure;
+}
+lista-de-estudios{
+    text-align: center; 
+}
+
+</style>
+
+</head>
+<body>
+    <h1>Nutriologo</h1>
+<fieldset>
+    <h3>ESTUDIOS</h3>
+ <ol id="lista-de-estudios"></ol>
+    <li>UMV</li>
+    <li>CETIS</li>
+ </ol>
+ <h3>RECONOCIMIENTOS</h3>
+ <ul id="lista-de-reconocimientos"></ol>
+    <li>primer lugar a nivel estado en competencias de matematicas</li>
+    <li>reconocimiento por las mejores calificaciones durante el primer año de univeridad</li>
+ </ul>
+ <img src=" c:\Users\LABII-PC28\Documents\monserratTI\reconocimiento.png">
+</fieldset>
+    
+    
+
+<h2>DIETAS</h2>
+<main>
+    <h2>DIETA PARA BAJAR DE PESO</h2>
+ <img src="c:\Users\LABII-PC28\Documents\monserratTI\NUTRI.jpg" alt="" width="400" height="400">
+
+
+</main>
+
+
+<div> <!--Elemento div-->
+    <p>Opciones de <strong> alimentacion </strong> segun lo que nesecitas:</p> <!--strong para hacer la letra negrita-->
+    <!--em para hacer la letra cursiva-->
+    <p><em>LIsta de opciones</em></p> 
+    <!--Listas no ordenadas-->
+    <!--ul = unordered list-->
+        <ul id="lista-gatos-aman"> 
+            <li>Dietas para bajar de peso</li> <!--li = list item-->
+            <li>dietas para subir de peso</li> 
+            <li>dietas para ejercitarse</li> 
+        </ul> 
+        <img src="C:\Users\Vargas\Documents\Tecnolochicas2023\clase3\Estilo\lasagna.jpg" alt="lasagna" id="imagen-de-lasagna"> <!--imagen desde nuestro dispositivo-->
+
+        
+        <p>Dietas o comidas <strong>no recomentables</strong>:</p>
+        <!--Listas ordenadas-->
+        <ol class="lista-de-gatos"> <!--ol = ordered list-->
+            <li>Dieta del sueño</li> <!--li = list item-->
+            <li><s>dieta del agua</s></li> <!--Etiqueta 's' para texto tachado-->
+            <li> Comidas Rapidas</li> 
+        </ol> 
+</div>
+    <img src="C:\Users\Vargas\Documents\Tecnolochicas2023\clase3\Estilo\gatito.png" alt="gatito" class="imagen-de-gatos"> <!--imagen desde nuestro dispositivo-->
+<br>
+
+ <!--Crear enlaces internos / Enlaces a Secciones Internas-->
+
+
+ <h1>DIETAS : </h1>
+ <a href="#parrafo-1">Dieta 1</a>
+ <a href="#parrafo-2">Dieta 2</a>
+ <a href="#parrafo-3">Dieta 3</a>
+ <a href="#parrafo-4">Dieta 4</a>
+
+<h3 id="parrafo-1">Dieta 1</h3>
+
+<p>Texto</p>
+
+<h3 id="parrafo-2">Dieta 2</h3>
+<p>Texto</p>
+
+<h3 id="parrafo-3">Dieta 3</h3>
+<p>Texto</p>
+
+<h3 id="parrafo-4">Dieta 4</h3>
+<p>Texto</p>
+ <!--Crear enlaces externos-->
+<p>En este link <a href="https://quaker.lat/mx/articulos/10-ejemplos-de-alimentos-saludables-que-debes-incluir-en-tu-alimentacion/" target="_blank" rel="noopener noreferrer">ALIMENTOS SALUDABLES.</a></p>
+
+
+<!--Enlaces con imágenes-->
+<a href="http://www.incmnsz.mx/documentos/diabetes/8.%20tipos%20de%20dietas.pdf" target="_blank"><img src="https://bit.ly/3N6uSMy" alt="gatito negro" id="imagen-con-padding"></a>
+
+<img src="C:\Users\Vargas\Documents\Tecnolochicas2023\clase3\Estilo\lasagna.jpg" alt="lasagna" id="imagen-con-padding">
+
+<!--Crear enlaces con #. Enlaces muertos o dead links-->
+<p>Visita nuestro <a href="#" rel="noopener noreferrer">nuevo sitio web aquí</a></p>
+
+    <!--Formulario-->
+    <form action="/enviar-respuesta">
+        <!--Texto y botón enviar-->
+        <input type="text" placeholder="URL de la foto de tu gato" required>
+        <br>
+        <button type="submit">Enviar</button>
+       
+        <!--Botones de radio-->
+        <p>¿Cual es tu dieta semanal?</p>
+            <label for="cachorro">
+                <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>ligera
+            </label>
+            <br>
+            <label for="adulto">
+                <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">completa
+            </label>
+            <br>
+
+
+        <!--Casillas de verificación-->
+        <p>¿Que alimentos consumes con frecuencia?</p>
+        <label for="carinoso">
+            <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked> Comida rapida
+        </label>
+        <br>
+        <label for="perezoso">
+            <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"> Comida saludable 
+        </label>
+        <br>
+        <label for="energico">
+            <input id="energico" type="checkbox" value="energico" name="personalidad"> Postres
+        </label>
+        <br>         
+    </form>
+</main>
+<!--pie de página-->
+<footer>
+    <!--Etiqueta small para que el pie de página se vea más pequeño-->
+    <p><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">tecnolochicas.mx</a></small></p>
+</footer>
+    
+</body>
+</html>
